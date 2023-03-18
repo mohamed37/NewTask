@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "eeeb53c6-cb0d-4bfc-927d-0684d2545e75",
+		"name": "task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "createUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "type",
+						"value": "thrid",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "bio",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "image",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "title",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "date_birth",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "address",
+							"value": "",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/create/user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"create",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
